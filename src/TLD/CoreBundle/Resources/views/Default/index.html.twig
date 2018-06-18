@@ -1,0 +1,12 @@
+{% extends 'TLDCoreBundle::base.html.twig' %}
+
+{% block body %}
+{% block tld_block %}
+<h1 class="page-header"><div class="container">TLD</div></h1>
+<div class="container">
+  {% for date in dates %}
+    <li>{{ date }}</li>
+  {% endfor %}
+</div>
+{% endblock %}
+{% endblock %}

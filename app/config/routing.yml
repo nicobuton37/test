@@ -1,0 +1,7 @@
+tld_core:
+    resource: "@TLDCoreBundle/Resources/config/routing.yml"
+    prefix:   /
+
+app:
+    resource: "@AppBundle/Controller/"
+    type:     annotation

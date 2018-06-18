@@ -1,0 +1,4 @@
+services:
+#    tld_core.example:
+#        class: TLD\CoreBundle\Example
+#        arguments: ["@service_id", "plain_value", "%parameter%"]
